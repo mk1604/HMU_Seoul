@@ -1,4 +1,3 @@
-const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
@@ -11,7 +10,6 @@ dotenv.config();
 
 const indexRouter = require('./routes');
 const authRouter = require('./routes/auth');
-const categoryRouter = require('./routes/category');
 const featureRouter = require('./routes/feature');
 const resultRouter = require('./routes/result');
 
